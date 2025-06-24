@@ -1,0 +1,126 @@
+.firstpart{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.name{
+    background-color: #EAA64D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec{
+    background-color: #0D5EA6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+} 
+
+.pano{
+    font-size: 200px;
+    color: white;
+    font-family: "Barriecito", system-ui;
+}
+.thepr{
+    font-size: 100px;
+    color:white;
+    font-family: "Barriecito", system-ui
+}
+
+.css{
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #C78A3B
+}
+.js{
+    grid-area: 2 / 2 / 3 / 3;
+    color: #C78A3B
+}
+.ch{
+    grid-area: 4 ;
+    color: #C78A3B;
+    margin-left: 20px;
+}
+html {
+  background-color: #A16D28;
+}
+.second{
+    height: 400px;
+    width: 100%;
+}
+
+#add{
+        font-family: "Barriecito", system-ui;
+        text-align: center;
+        margin-top: 20px;
+
+}
+
+#name{
+        font-family: "Barriecito", system-ui;
+        text-align: center;
+        margin-top: 150px;
+}
+.font{
+    font-family: "Barriecito", system-ui;
+    color:white
+}
+
+.size{
+    width: 200px;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.dif{
+    width:150px
+}
+
+.all{
+    border: 5px solid black;
+    padding: 20px
+}
+.gradient-background{
+    background-color: #A16D28;
+    border:#A16D28 solid 1px
+}
+@media(max-width:1200px) {
+    .portfolio{
+    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+
+
+    }   
+    .all{
+        margin: 20px;
+        width: 500px;
+    }
+
+    .firstpart{
+    display: block;
+}
+    .sec{
+        display: none;
+    }
+    .pano{
+    font-size: 100px;
+    color: white;
+    font-family: "Barriecito", system-ui;
+}
+    .thepr{
+        font-size: 50px;
+        color:white;
+        font-family: "Barriecito", system-ui
+    }
+}
